@@ -382,18 +382,54 @@
 // }
 
 
-const jonasArray = [
-    'Jonas',
-    'schmedmann',
-    1991,
-    'teacher',
-    ['Michael', 'Peter', 'Steven'],
-    true,
-]
+// const jonasArray = [
+//     'Jonas',
+//     'schmedmann',
+//     1991,
+//     'teacher',
+//     ['Michael', 'Peter', 'Steven'],
+//     true,
+// ]
 
-for (let i = 0; i < jonasArray.length; i++) {
-    console.log(jonasArray[i], typeof jonasArray[i]);
-}
+// for (let i = 0; i < jonasArray.length; i++) {
+//     console.log(jonasArray[i], typeof jonasArray[i]);
+// }
+
+
+// const counter = 0;
+
+// for (let i = 0; i <= 10; i++) {
+//     let counter = i;
+
+//     // if (counter === 2 || counter === 4 || counter === 6 || counter === 8 || counter === 10) {
+//     //     console.log(counter)
+//     // }
+//     i++
+//     if (counter < i) {
+//         console.log(counter);
+//     }
+// }
+
+
+// const arr = [0];
+
+// for (let i = 0; i < arr.length; i++) {
+    
+//     calc: function(arr) {
+//         arr = arr + 1;
+//     }
+//     console.log(calc);
+// }
+
+// console.table(arr);
+
+const colorBtn = document.querySelector('.changeColor');
+const body = document.querySelector('body');
+const box = document.querySelector('.box');
 
 
 
+colorBtn.addEventListener('click', function(white){
+     console.log('hello');
+     box.classList.toggle('white');
+    });
